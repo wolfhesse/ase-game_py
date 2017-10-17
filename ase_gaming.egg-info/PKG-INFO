@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ase-gaming
+Version: 0.0.1
+Summary: playing w/ setup.py
+Home-page: asecms.base.wolfspool.at/py-ase-gaming-pg
+Author: @wolfhesse
+Author-email: wolfgang.schuessel@gmail.com
+License: MIT
+Description: using ase-game egg
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT license
