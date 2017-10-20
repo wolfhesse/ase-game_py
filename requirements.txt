@@ -1,0 +1,2 @@
+pytest
+git+ssh://git@github.com/wolfhesse/ase-game_py_mod.git

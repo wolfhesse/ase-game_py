@@ -1,2 +1,0 @@
-pytest
-ase-game

@@ -18,13 +18,13 @@ setup(
     packages=[
         'ase_gaming',
     ],
-    scripts=[
-        'scripts/eins.py',
-    ],
+    # scripts=[
+    #     'scripts/eins.py',
+    # ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT license',
     ],
     zip_safe=False,
-    install_requires=['pytest', 'ase-game'],
+    install_requires=['pytest', 'ase_game_py_mod'],
 )

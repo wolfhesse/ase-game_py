@@ -1,7 +1,7 @@
 import unittest
 
 import pytest as pytest
-from ase_game import monsters
+from ase_game_py_mod import monsters
 
 
 @pytest.mark.parametrize('monster, expected', [
@@ -33,8 +33,8 @@ def test_battle_cry(monster):
 
 
 def test_battle_cry_alt(monster):
-    assert monster.battle_cry() == monster.sound.upper()
-    assert monster.battle_cry() + "a" == monster.sound.upper() + "a"
+    assert monster.battle_cry() == monster.sound.upper() + "!"
+    assert monster.battle_cry() + "a" == monster.sound.upper() + "!a"
 
 
 class TestMonsterUnit(unittest.TestCase):
